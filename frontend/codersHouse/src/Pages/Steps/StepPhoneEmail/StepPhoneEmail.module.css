@@ -1,0 +1,55 @@
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.buttonWrap{
+    margin-bottom: 15px;
+    margin-right: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tabButton{
+    width: 50px;
+    height: 50px;
+    background: #262626;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tabButton:last-child{
+    margin-left: 10px;
+}
+
+.phone{
+    height: 30px;
+}
+
+.email{
+    height: 20px;
+}
+
+.active{
+    background: #596C53;
+}
+
+.actionButtonWrap{
+    margin-top: 30px;
+    
+}
+
+.paraDiv{
+    margin-top: 30px !important;
+    margin: auto;
+    width: 300px;
+}
+
+.para{
+    font-size: 12px;
+}

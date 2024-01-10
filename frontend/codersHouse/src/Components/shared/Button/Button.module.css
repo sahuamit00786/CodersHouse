@@ -1,0 +1,20 @@
+
+.input{
+   color: rgb(224, 219, 219);
+   outline: none;
+   background: #51654B;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 32px;
+   border-radius: 18px;
+   border: none;
+   margin: auto;
+   margin-top: 25px;
+   cursor: pointer;
+}
+
+.input:hover{
+    background: #252e23;
+    color: white;
+}

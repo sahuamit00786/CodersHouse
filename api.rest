@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/send-otp HTTP/1.1
+Content-Type: application/json
+
+{
+    "phone":"+91 6386923401"
+}
+
+###
+
+POST http://localhost:3000/api/verify-otp HTTP/1.1
+Content-Type: application/json
+
+{
+    "phone":"+91 6386923401",
+    "otp":9674,
+    "hash":"a9905469fc97486463be6d079802ac3c898fc095c280bba5d54d6bb6ce47fdc0.1700750726854"
+}

@@ -1,0 +1,21 @@
+.actionButtonWrap{
+    margin-top: 30px;
+    
+}
+
+.paraDiv{
+    margin-top: 30px !important;
+    margin: auto;
+    width: 300px;
+}
+
+.para{
+    font-size: 12px;
+}
+
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
