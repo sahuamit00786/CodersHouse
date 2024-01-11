@@ -1,0 +1,52 @@
+.actionButtonWrap{
+    margin-top: 1px;
+}
+
+
+.subHeading{
+    color:'#C4C5C5';
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+
+
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.avatarWrapper{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(18, 54, 2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatar{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.avatarInput{
+    color: #61775c;
+    margin-top: 10px;
+}
+
+.avatarInput:hover{
+    color: #425d3a;
+    transition: ease-in-out 0.1s all;
+}
+
+.hideInput{
+    display: none;
+}

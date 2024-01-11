@@ -8,14 +8,14 @@ import { setName } from '../../../../store/activationSlice'
 
 const StepName = ({onClick}) => {
 
-  // const {name} = useSelector(state=>state.activate)
+  const {name} = useSelector(state=>state.activate)
   const dispatch = useDispatch();
-  const[fullName,setFullName] = useState('')
+  const[fullName,setFullName] = useState(name)
 
   function nextStep(){
     if(!fullName)
     {
-      return
+      return;
     }
     dispatch(setName(fullName));
     onClick()
@@ -26,7 +26,7 @@ const StepName = ({onClick}) => {
         <Cards className={styles.topic} title="🥽  What's your full name">
            
           <TextInput 
-              value={setFullName} 
+              value={fullName} 
               onChange={(e)=> setFullName(e.target.value)}
               placeholder='Enter your username'
           />
